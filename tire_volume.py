@@ -4,9 +4,9 @@ import math  # Import math module for π
 print("This program calculates the volume of a tire based on its dimensions.")
 
 # Get input from the user
-width = float(input("Enter the width of the tire in mm; "))
-aspect_ratio = float(input("Enter the aspect ratio of the tire; "))
-diameter = float(input("Enter the diameter of the wheel in inches; "))
+width = float(input("Enter the width of the tire in mm ; "))
+aspect_ratio = float(input("Enter the aspect ratio of the tire ; "))
+diameter = float(input("Enter the diameter of the wheel in inches ; "))
 
 # Compute the volume using the formula
 volume = (math.pi * width**2 * aspect_ratio * (width * aspect_ratio + 2540 * diameter)) / 10000000000
