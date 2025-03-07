@@ -1,3 +1,6 @@
+#tire_volume activity
+
+
 import math  # Import math module for π
 
 # Display message to the user
@@ -11,7 +14,7 @@ diameter = float(input("Enter the diameter of the wheel in inches ; "))
 # Compute the volume using the formula
 volume = (math.pi * width**2 * aspect_ratio * (width * aspect_ratio + 2540 * diameter)) / 10000000000
 
-# Display the calculated volume
+# Display the calculated volume , leaving final values in litres
 print(f"\nThe volume of the tire is approximately {volume:.2f} liters.")
 
 # Display a message thanking the user for using the program
