@@ -2,13 +2,15 @@ import math
 
 def compute_volume(radius, height):
     """Computes the volume of a cylinder."""
+    # Compute the volume of a cylinder using the formula: pi * (radius ** 2) * height
     return math.pi * (radius ** 2) * height
 def compute_surface_area(radius, height):
     """Computes the surface area of a cylinder."""
+    # Calculate the surface area of a cylinder using the formula 2 * pi * radius * (radius + height)
     return 2 * math.pi * radius * (radius + height)
 
 def compute_storage_efficiency(volume , surface_area,):
-    """Computes the storage efficiency as volume per dollar."""
+    """Computes the storage efficiency as volume divided by surface area."""
     return volume / surface_area
 
 
