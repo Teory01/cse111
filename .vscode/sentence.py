@@ -22,7 +22,7 @@ def make_sentence(quantity, tense):
 def get_determiner(quantity):
     """Returns a randomly chosen determiner based on singular or plural quantity."""
     determiners = {1: ["a", "one", "the"], 
-                   2: ["some", "any", "alot"]}
+                   2: ["some", "many", "alot"]}
     return random.choice(determiners[quantity])
 
 def get_noun(quantity):
